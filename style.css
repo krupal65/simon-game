@@ -1,0 +1,40 @@
+*{
+    text-align: center;   
+    font-family: cursive;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+}
+
+.btn-container{
+    display: grid;
+    grid-template-areas: 'a a';
+    grid-gap: 1rem;
+    justify-content: center;
+}
+
+.pink{
+    background-color: rgb(237, 102, 124);
+}
+.green{
+    background-color:rgb(15, 196, 15);
+}
+.orange{
+    background-color: rgb(236, 155, 7);
+}
+.blue{
+    background-color: rgb(45, 138, 225);
+}
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: rgb(249, 97, 216);
+}
+.red{
+    background-color: red;
+}
